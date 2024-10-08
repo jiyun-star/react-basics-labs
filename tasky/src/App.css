@@ -34,6 +34,11 @@ div {
   font-weight: bold;
   font-size: 1.2em;
 }
+
+.priority {
+  font-weight: bold;
+  background-color: yellow;
+}
 button {
   border: none;
   border-radius: 3px;
@@ -58,7 +63,7 @@ button {
   color: red;
 }
 
-input[type=text], input[type=date] {
+input[type=text], input[type=date], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -67,6 +72,7 @@ input[type=text], input[type=date] {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 
 input[type=submit] {
   width: 100%;
